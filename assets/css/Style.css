@@ -155,3 +155,9 @@ button{
     letter-spacing: 0.2px;
     color: #FFFFFF;
 }
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-bottom: 142;
+}
