@@ -159,5 +159,106 @@ button{
     display: flex;
     justify-content: space-between;
     align-self: center;
-    margin-bottom: 142;
+    margin-bottom: 50px;
+    margin-top: 102px;
+    margin-left: 174px;
+    margin-right: 287px;
+}
+
+.mobile_head{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+    margin-left: 287px;
+    margin-right: 497px;
+    margin-top: 275px;
+    
+}
+
+.mobile_title{
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-left: 287px;
+    margin-right: 168px;
+    margin-top: 17px;
+    margin-bottom: 27px;
+    
+}
+.mobile_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-left: 287px;
+    margin-right: 262px;
+    margin-bottom: 203;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    Justify-content: sspace-between; 
+}
+
+.mobile2{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+    margin-top: 102px;
+    margin-left: 338px;
+    margin-right: 197px;
+}
+.mobile_head2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+    margin-left: 35px;
+    margin-right: 107px;
+    margin-top: 100px
+}
+
+.mobile_title2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-top: 17px;
+    margin-right: 138px;
+    margin-left: 35px;
+}
+
+.mobile_text2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-left: 35px;
+    margin-right: 156px;
+    margin-top: 27px;
+    margin-bottom: 403px;
 }
