@@ -186,6 +186,72 @@
     margin-top: 40px;
     margin-bottom: 40px;
   }
+  .menu{
+    display: none;
+  }
 
-
-background-image: url('../img/back.png');
+  @media screen and (max-width: 414px) {
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-left: 38px;
+      margin-top: -50px;
+      margin-bottom: -100px;
+    }
+    .restapp{
+      background: none;
+      color: black;
+      margin-top: -20px;
+    }
+    .restapp_info, .restapp_title, .restapp_about{
+      color:black;
+    }
+    .button-style-2{
+      color: #fa4a0c;
+      border: 1px solid #fa4a0c;
+      margin-left: -30px;
+      margin-top: 20px;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .order{
+      background-image: none;
+      background-color: rgb(49, 47, 47);
+      color: white;
+    }
+    .restapp_about{
+      color:white;
+    }
+    .mobile{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .button-container2 {
+    margin-left: 38px;  
+    }
+    
+    .mobile{
+      margin-top: -10px;
+    }
+    .nav-span{
+      display: none;
+    }
+    .cont-flex{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-right: 30px;
+    }
+    .menu{
+      display: table;
+    }
+  }
